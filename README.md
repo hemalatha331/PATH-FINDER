@@ -1,30 +1,77 @@
 <div align="center">
-<b> <h1>PATH-FINDER</h1> </b>
+    <h1><b>PATH-FINDER</b></h1>
 </div>
 
-This Python script demonstrates graph visualization and pathfinding using NetworkX library. It creates a graph based on nodes and edges, finds the shortest path between nodes considering weights, and visualizes the graph with paths overlaid on a background image.
+![Path Finder](https://github.com/hemalatha331/PATH-FINDER/blob/main/Screenshot%20from%202025-02-24%2022-16-51.png)
 
-## Requirements
+## 📌 Project Overview
+This Python script demonstrates graph visualization and pathfinding using the NetworkX library. It constructs a graph with nodes and weighted edges, finds the shortest path between locations, and visualizes the graph with highlighted paths over a background image.
+
+---
+
+## 🔧 Requirements
 - Python 3.x
 - NetworkX
 - Matplotlib
 - Requests
 
-## Usage
+---
+
+## 🚀 How to Use
 
 1. Clone the repository or download the Python script.
-2. Install the required libraries using `pip install networkx matplotlib requests`.
-3. Run the script in your preferred Python environment.
+2. Install the required dependencies:
+   ```sh
+   pip install networkx matplotlib requests
+<div align="center">
+    <h1><b>PATH-FINDER</b></h1>
+</div>
 
-### Functionality
+![Path Finder](https://github.com/hemalatha331/PATH-FINDER/blob/main/Screenshot%20from%202025-02-24%2022-16-51.png)
 
-- The script allows two types of inputs:
-    - Source-Destination Input: Input two locations to find the shortest path between them.
-    - Source-Weight Input: Input a start location and a maximum weight(Example-Distance,Time) to find paths within that weight limit from the start location.
+## 📌 Project Overview
+This Python script demonstrates graph visualization and pathfinding using the NetworkX library. It constructs a graph with nodes and weighted edges, finds the shortest path between locations, and visualizes the graph with highlighted paths over a background image.
 
-- The graph is created using a set of nodes and edges, each having specific weights.
-- The script utilizes Dijkstra's algorithm for pathfinding.
-- It visualizes the graph and highlights the shortest path(s) on a given background image.
+---
 
-### Usage Example
-For better understandibility let consider a example,A company having multiple branches around country and there is for Inspection team to visit branches and inspect need and overall performance profits and loss of each branch.So in a day while visiting branches it would be better to choose a shortest path reach a company branch rather than longest distance path right?So here is the solution for this ,just enter Source location and Destination location and got display the shortest path with available paths.Secondary category also there that is the inspection team want to reach a brach with some weight(Example Distance or Time etc) limit and they want to reach Destination within that limit.Hence for this solution is just enter the source location and then limit then it display shortest path with available paths.  
+## 🔧 Requirements
+- Python 3.x
+- NetworkX
+- Matplotlib
+- Requests
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository or download the Python script.
+2. Install the required dependencies:
+   ```sh
+   pip install networkx matplotlib requests
+
+Run the script in your preferred Python environment.
+
+🔹 Functionality
+
+Pathfinding Options:
+
+Source-Destination Input: Enter a start and end location to find the shortest path.
+
+Source-Weight Input: Enter a start location and a maximum weight (e.g., distance, time) to find all reachable paths within that limit.
+
+The script uses Dijkstra's Algorithm for shortest path calculations.
+
+The graph is visually represented, and shortest paths are highlighted.
+
+📍 Real-World Example
+
+Imagine a company with multiple branches across the country. An inspection team needs to visit various branches efficiently:
+
+Instead of taking longer routes, they can input their Source and Destination to get the shortest path.
+
+If they have a specific Distance or Time Limit, they can input the source and the limit to see available paths within the constraint.
+
+This system optimizes travel routes, saving time and resources.
+
+✨ A practical solution for optimizing travel routes using graph algorithms! ✨
+
